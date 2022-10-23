@@ -10,8 +10,8 @@ services:
         volumes:
         - ../app:/usr/app/
         - /usr/app/node_modules
-        ports:
-        - "4000:3000"
+        # ports:
+        # - "4000:3000"
 
     client:
         image: nginx
